@@ -53,7 +53,7 @@ export function VideoTestimonialCard({
         <video
           controls={isPlayable && !hasError}
           playsInline
-          preload="metadata"
+          preload="none"
           poster=""
           className={`h-full w-full object-cover transition-opacity duration-500 ${
             isPlayable && !hasError ? 'opacity-100' : 'opacity-0'

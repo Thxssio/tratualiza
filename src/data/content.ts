@@ -13,6 +13,9 @@ import depoimento4 from '../assets/depoimentos/4.png'
 import depoimentoVideo1 from '../assets/depoimentos/dep_1.MP4'
 import depoimentoVideo2 from '../assets/depoimentos/dep_2.MP4'
 import depoimentoVideo3 from '../assets/depoimentos/dep_3.MP4'
+import depoimentoVideoPoster1 from '../assets/depoimentos/dep_1-poster.jpg'
+import depoimentoVideoPoster2 from '../assets/depoimentos/dep_2-poster.jpg'
+import depoimentoVideoPoster3 from '../assets/depoimentos/dep_3-poster.jpg'
 import especializacaoBandagem from '../assets/especializações/BANDAGEM ELÁSTICA FUNCIONAL APLICADA À GESTAÇÃO, PÓS PARTO E PÓS OPERATÓRIO.png'
 import especializacaoCoberturas from '../assets/especializações/COBERTURAS NA PREVENÇÃO E TRATAMENTO DE FERIADAS AGUDAS OU CRÔNICAS.png'
 import especializacaoDrenagem from '../assets/especializações/DRENAGEM LINFÁTICA MANUAL.png'
@@ -52,6 +55,7 @@ export type TestimonialPrint = {
 
 export type VideoTestimonial = {
   description: string
+  poster: string
   src: string
   title: string
 }
@@ -158,16 +162,19 @@ export const videoTestimonials: VideoTestimonial[] = [
   {
     title: 'Experiencia real de aluna',
     description: 'Resultados percebidos na pratica e na confianca profissional.',
+    poster: depoimentoVideoPoster1,
     src: depoimentoVideo1,
   },
   {
     title: 'Transformacao no atendimento',
     description: 'Um relato direto sobre aprendizado, aplicacao e evolucao clinica.',
+    poster: depoimentoVideoPoster2,
     src: depoimentoVideo2,
   },
   {
     title: 'Capacitacao com impacto real',
     description: 'Depoimento de quem viveu a formacao e levou isso para a rotina profissional.',
+    poster: depoimentoVideoPoster3,
     src: depoimentoVideo3,
   },
 ]

@@ -443,6 +443,7 @@ function App() {
                 <Reveal key={video.src} delay={index * 150} direction="up">
                   <VideoTestimonialCard
                     description={video.description}
+                    poster={video.poster}
                     src={video.src}
                     title={video.title}
                   />

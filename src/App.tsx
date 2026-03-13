@@ -429,11 +429,12 @@ function App() {
                 </span>
               </div>
               <h3 className="mb-2 font-montserrat text-2xl font-bold text-white">
-                Em breve, historias reais em video
+                Veja relatos em video de quem viveu a experiencia
               </h3>
               <p className="mx-auto max-w-2xl font-light text-slate-400">
-                Depoimentos de profissionais que viveram nossas formacoes na
-                pratica e transformaram sua atuacao clinica.
+                Profissionais compartilham, com a propria voz, como nossas
+                formacoes impactaram a seguranca, a pratica e os resultados no
+                atendimento.
               </p>
             </Reveal>
 

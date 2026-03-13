@@ -10,6 +10,15 @@ import depoimento1 from '../assets/depoimentos/1.png'
 import depoimento2 from '../assets/depoimentos/2.png'
 import depoimento3 from '../assets/depoimentos/3.png'
 import depoimento4 from '../assets/depoimentos/4.png'
+import depoimentoVideo1 from '../assets/depoimentos/dep_1.MP4'
+import depoimentoVideo2 from '../assets/depoimentos/dep_2.MP4'
+import depoimentoVideo3 from '../assets/depoimentos/dep_3.MP4'
+import especializacaoBandagem from '../assets/especializações/BANDAGEM ELÁSTICA FUNCIONAL APLICADA À GESTAÇÃO, PÓS PARTO E PÓS OPERATÓRIO.png'
+import especializacaoCoberturas from '../assets/especializações/COBERTURAS NA PREVENÇÃO E TRATAMENTO DE FERIADAS AGUDAS OU CRÔNICAS.png'
+import especializacaoDrenagem from '../assets/especializações/DRENAGEM LINFÁTICA MANUAL.png'
+import especializacaoHarmonizacao from '../assets/especializações/HARMONIZAÇÃO E REJUVENESCIMENTO CORPORAL E DE GLÚTEOS.png'
+import especializacaoManuseios from '../assets/especializações/MANUSEIOS NA FISIOTERAPIA NEUROPEDIÁTRICA.png'
+import especializacaoMarketing from '../assets/especializações/VENDAS E MARKETING DIGITAL PARA PROFISSIONAIS DA SAÚDE.png'
 import momento1 from '../assets/momentos/1.jpeg'
 import momento2 from '../assets/momentos/2.jpeg'
 import momento3 from '../assets/momentos/3.jpeg'
@@ -53,48 +62,42 @@ export const courses: Course[] = [
     subtitle: 'Agudas ou Crônicas',
     description:
       'Utilize as melhores técnicas e produtos para tratar feridas de forma eficaz, seja no contexto agudo ou crônico.',
-    image:
-      'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+    image: especializacaoCoberturas,
   },
   {
     title: 'Bandagem Elástica Funcional',
     subtitle: 'Gestação, Pós-parto e Pós-operatório',
     description:
       'Aprenda como utilizar bandagem elástica de forma segura e eficaz para aliviar dores, reduzir edemas e promover a recuperação.',
-    image:
-      'https://images.unsplash.com/photo-1574406280735-351fc1a7c5e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+    image: especializacaoBandagem,
   },
   {
     title: 'Manuseios na Fisioterapia',
     subtitle: 'Neuropediátrica',
     description:
       'Aprenda a identificar e tratar componentes atípicos do desenvolvimento sensoriomotor, dominar técnicas de controle e aprendizagem.',
-    image:
-      'https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+    image: especializacaoManuseios,
   },
   {
     title: 'Vendas e Marketing Digital',
     subtitle: 'Para Profissionais da Saúde',
     description:
       'Receba orientação estratégica personalizada para superar desafios e levar seu negócio de saúde ao próximo nível.',
-    image:
-      'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80',
+    image: especializacaoMarketing,
   },
   {
     title: 'Harmonização e Rejuvenescimento',
     subtitle: 'Corporal e de Glúteos',
     description:
       'Aprenda técnicas avançadas que valorizam as formas corporais, promovem o rejuvenescimento e realçam a autoestima.',
-    image:
-      'https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=600&q=80',
+    image: especializacaoHarmonizacao,
   },
   {
     title: 'Drenagem Linfática',
     subtitle: 'Manual',
     description:
       'Descubra o poder da drenagem linfática! Aprenda a promover saúde e bem-estar, potencializando resultados extraordinários.',
-    image:
-      'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+    image: especializacaoDrenagem,
   },
 ]
 
@@ -153,18 +156,18 @@ export const testimonialPrints: TestimonialPrint[] = [
 
 export const videoTestimonials: VideoTestimonial[] = [
   {
-    title: 'Relato em video 01',
-    description: 'Espaco reservado para o primeiro depoimento em video.',
-    src: '/videos/depoimentos/1.mp4',
+    title: 'Experiencia real de aluna',
+    description: 'Resultados percebidos na pratica e na confianca profissional.',
+    src: depoimentoVideo1,
   },
   {
-    title: 'Relato em video 02',
-    description: 'Espaco reservado para o segundo depoimento em video.',
-    src: '/videos/depoimentos/2.mp4',
+    title: 'Transformacao no atendimento',
+    description: 'Um relato direto sobre aprendizado, aplicacao e evolucao clinica.',
+    src: depoimentoVideo2,
   },
   {
-    title: 'Relato em video 03',
-    description: 'Espaco reservado para o terceiro depoimento em video.',
-    src: '/videos/depoimentos/3.mp4',
+    title: 'Capacitacao com impacto real',
+    description: 'Depoimento de quem viveu a formacao e levou isso para a rotina profissional.',
+    src: depoimentoVideo3,
   },
 ]

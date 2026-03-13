@@ -29,12 +29,9 @@ export function VideoTestimonialCard({
           <div className="absolute left-1/2 top-[18%] h-36 w-36 -translate-x-1/2 rounded-full bg-amber-500/10 blur-3xl"></div>
           <div className="absolute bottom-16 left-1/2 h-28 w-28 -translate-x-1/2 rounded-full bg-blue-500/10 blur-3xl"></div>
 
-          <div className="absolute inset-x-5 top-5 flex items-center justify-between">
+          <div className="absolute inset-x-5 top-5 flex items-center justify-start">
             <span className="rounded-full border border-amber-400/20 bg-slate-950/70 px-3 py-1.5 text-[10px] font-medium uppercase tracking-[0.24em] text-amber-100 backdrop-blur-md">
               Depoimento em video
-            </span>
-            <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-[10px] font-medium uppercase tracking-[0.24em] text-slate-300 backdrop-blur-md">
-              Em breve
             </span>
           </div>
 
@@ -57,6 +54,7 @@ export function VideoTestimonialCard({
           controls={isPlayable && !hasError}
           playsInline
           preload="metadata"
+          poster=""
           className={`h-full w-full object-cover transition-opacity duration-500 ${
             isPlayable && !hasError ? 'opacity-100' : 'opacity-0'
           }`}

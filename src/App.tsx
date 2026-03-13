@@ -426,11 +426,11 @@ function App() {
                 </span>
               </div>
               <h3 className="mb-2 font-montserrat text-2xl font-bold text-white">
-                A secao ja esta pronta para os relatos em video
+                Em breve, historias reais em video
               </h3>
               <p className="mx-auto max-w-2xl font-light text-slate-400">
-                Assim que os tres arquivos forem adicionados, eles aparecem
-                nestes cards automaticamente.
+                Depoimentos de profissionais que viveram nossas formacoes na
+                pratica e transformaram sua atuacao clinica.
               </p>
             </Reveal>
 
